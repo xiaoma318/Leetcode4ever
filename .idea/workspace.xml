@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ce9718c-1ede-4ad5-93c3-ef70db2d37cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MeetingRooms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeetingRooms.java" afterDir="false" />
     </list>
@@ -29,7 +28,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1c3BGISW7BPMwdc63r9oj5KBRPe" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -42,9 +43,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="MeetingRooms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MeetingRooms" />
+  <component name="RunManager" selected="Application.BinaryTreeVerticalOrderTraversal">
+    <configuration name="BinaryTreeVerticalOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTreeVerticalOrderTraversal" />
+      <module name="Leetcode4ever" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckValidStringParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CheckValidStringParenthesis" />
+      <module name="Leetcode4ever" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SplitArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SplitArray" />
+      <module name="Leetcode4ever" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringToTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringToTree" />
+      <module name="Leetcode4ever" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidIpAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ValidIpAddress" />
       <module name="Leetcode4ever" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -52,7 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MeetingRooms" />
+        <item itemvalue="Application.BinaryTreeVerticalOrderTraversal" />
+        <item itemvalue="Application.SplitArray" />
+        <item itemvalue="Application.CheckValidStringParenthesis" />
+        <item itemvalue="Application.StringToTree" />
+        <item itemvalue="Application.ValidIpAddress" />
       </list>
     </recent_temporary>
   </component>
@@ -67,6 +100,14 @@
       <option name="presentableId" value="Default" />
       <updated>1589747299084</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit 3">
+      <created>1589752111428</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589752111428</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,10 +115,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TaskScheduler.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
