@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ce9718c-1ede-4ad5-93c3-ef70db2d37cd" name="Default Changelist" comment="">
+    <list default="true" id="2ce9718c-1ede-4ad5-93c3-ef70db2d37cd" name="Default Changelist" comment="Commit 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode4ever/BSTToDoubleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode4ever/BinaryTreeVerticalOrderTraversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode4ever/CheckValidStringParenthesis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode4ever/FindAllAnagram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode4ever/FriendsOfAppropriateAges.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode4ever/InsertIntoCyclicSortedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode4ever/IsGraphBipartite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode4ever/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode4ever/MeetingRooms$Interval.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode4ever/MeetingRooms.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode4ever/MergeAccounts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode4ever/SparseMatrixMultiplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode4ever/SplitArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode4ever/StringToTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode4ever/SubarraySumEqualsToK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode4ever/TaskScheduler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode4ever/TopKFrequency.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode4ever/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode4ever/ValidIpAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTreeVerticalOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeVerticalOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MeetingRooms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeetingRooms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeNode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,37 +46,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreeVerticalOrderTraversal">
-    <configuration name="BinaryTreeVerticalOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTreeVerticalOrderTraversal" />
+  <component name="RunManager" selected="Application.MyStack">
+    <configuration name="BasicCalculate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BasicCalculate" />
       <module name="Leetcode4ever" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckValidStringParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CheckValidStringParenthesis" />
+    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyStack" />
       <module name="Leetcode4ever" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SplitArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SplitArray" />
+    <configuration name="ReconstructItinerary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReconstructItinerary" />
       <module name="Leetcode4ever" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringToTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringToTree" />
+    <configuration name="RemoveInvalidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoveInvalidParentheses" />
       <module name="Leetcode4ever" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidIpAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ValidIpAddress" />
+    <configuration name="SetZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetZeros" />
       <module name="Leetcode4ever" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +84,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinaryTreeVerticalOrderTraversal" />
-        <item itemvalue="Application.SplitArray" />
-        <item itemvalue="Application.CheckValidStringParenthesis" />
-        <item itemvalue="Application.StringToTree" />
-        <item itemvalue="Application.ValidIpAddress" />
+        <item itemvalue="Application.MyStack" />
+        <item itemvalue="Application.SetZeros" />
+        <item itemvalue="Application.BasicCalculate" />
+        <item itemvalue="Application.ReconstructItinerary" />
+        <item itemvalue="Application.RemoveInvalidParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591133508020</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit 3">
+      <created>1591133910028</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591133910028</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +151,76 @@
           <url>file://$PROJECT_DIR$/src/TaskScheduler.java</url>
           <line>56</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MergeSortedInterval.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/WordDictionary.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DivideTwoIntegers.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReorderList.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReorderList.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SerializeAndDeserializeBST.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SerializeAndDeserializeBST.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ShortestBridge.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/KthSmallestInBST.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CourseSchedule.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberOfConnectedComponents.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RemoveInvalidParentheses.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BasicCalculate.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SetZeros.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

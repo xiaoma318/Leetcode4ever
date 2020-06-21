@@ -6,4 +6,11 @@ public class TreeNode {
   TreeNode(int v) {
     val = v;
   }
+
+  public static void print(TreeNode node){
+    if(node == null) return;
+    System.out.print(node.val+" ");
+    print(node.left);
+    print(node.right);
+  }
 }
