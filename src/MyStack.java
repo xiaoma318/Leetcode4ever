@@ -48,14 +48,14 @@ public class MyStack {
   }
 
   public static void main(String[] args) throws Exception {
-    MyStack stack = new MyStack();
-    stack.push(1);
-    stack.push(2);
-
-    System.out.println(stack.pop());
-    stack.push(3);
-    System.out.println(stack.pop());
-    System.out.println(stack.pop());
+    // MyStack stack = new MyStack();
+    // stack.push(1);
+    // stack.push(2);
+    //
+    // System.out.println(stack.pop());
+    // stack.push(3);
+    // System.out.println(stack.pop());
+    // System.out.println(stack.pop());
     //System.out.println(stack.pop());
     // stack.push1(1);
     // stack.push1(2);
@@ -67,6 +67,22 @@ public class MyStack {
     // System.out.println(stack.pop1());
     // System.out.println(stack.pop1());
     // System.out.println(stack.pop1());
+
+    System.out.println("A".hashCode() % 6);
+    System.out.println("B".hashCode() % 6);
+    System.out.println("C".hashCode() % 6);
+    System.out.println("D".hashCode() % 6);
+    System.out.println("E".hashCode() % 6);
+    System.out.println("F".hashCode() % 6);
+  }
+
+  interface Holder{
+    int x = getInt();
+  }
+
+  static int getInt(){
+    System.out.println("getInt");
+    return (int)(Math.random() * 10);
   }
 
 }

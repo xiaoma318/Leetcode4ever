@@ -5,15 +5,15 @@ import java.util.List;
 public class MergeSortedInterval {
 
   public static void main(String[] args) {
-    List<Interval> list1 = Arrays.asList(new Interval(1, 2), new Interval(3, 4));
-    List<Interval> list2 = Arrays.asList(new Interval(2, 3), new Interval(5, 6));
+    List<MyInterval> list1 = Arrays.asList(new MyInterval(1, 2), new MyInterval(3, 4));
+    List<MyInterval> list2 = Arrays.asList(new MyInterval(2, 3), new MyInterval(5, 6));
     System.out.println(mergeTwoInterval(list1, list2));
   }
 
-  public static List<Interval> mergeTwoInterval(List<Interval> list1, List<Interval> list2) {
+  public static List<MyInterval> mergeTwoInterval(List<MyInterval> list1, List<MyInterval> list2) {
     int i = 0, j = 0;
-    List<Interval> res = new ArrayList<>();
-    Interval curr = null;
+    List<MyInterval> res = new ArrayList<>();
+    MyInterval curr = null;
     while (i < list1.size() && j < list2.size()) {
       if (list1.get(i).start <= list2.get(j).start) {
         if (curr == null || curr.end < list1.get(i).start) {

@@ -1,8 +1,8 @@
-public class Interval {
+class MyInterval {
 
   int start, end;
 
-  Interval(int start, int end) {
+  MyInterval(int start, int end) {
     this.start = start;
     this.end = end;
   }

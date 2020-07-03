@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ce9718c-1ede-4ad5-93c3-ef70db2d37cd" name="Default Changelist" comment="Commit 4">
+    <list default="true" id="2ce9718c-1ede-4ad5-93c3-ef70db2d37cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeVerticalOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeVerticalOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyInterval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MeetingRooms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeetingRooms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeSortedInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSortedInterval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TaskScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaskScheduler.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,37 +47,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyStack">
-    <configuration name="BasicCalculate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BasicCalculate" />
+  <component name="RunManager" selected="Application.ExpressionAddOperators">
+    <configuration name="ExpressionAddOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExpressionAddOperators" />
       <module name="Leetcode4ever" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyStack" />
+    <configuration name="KthLargestElementInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KthLargestElementInArray" />
       <module name="Leetcode4ever" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReconstructItinerary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReconstructItinerary" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="Leetcode4ever" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveInvalidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RemoveInvalidParentheses" />
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort" />
       <module name="Leetcode4ever" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SetZeros" />
+    <configuration name="ValidNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ValidNumber" />
       <module name="Leetcode4ever" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,11 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyStack" />
-        <item itemvalue="Application.SetZeros" />
-        <item itemvalue="Application.BasicCalculate" />
-        <item itemvalue="Application.ReconstructItinerary" />
-        <item itemvalue="Application.RemoveInvalidParentheses" />
+        <item itemvalue="Application.ExpressionAddOperators" />
+        <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.KthLargestElementInArray" />
+        <item itemvalue="Application.ValidNumber" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +125,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591133910028</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit 4">
+      <created>1592708783261</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592708783261</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Commit 4">
+      <created>1592708899863</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592708899863</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,16 +157,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 3" />
+    <MESSAGE value="Commit 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TaskScheduler.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MergeSortedInterval.java</url>
           <line>17</line>
@@ -221,6 +232,11 @@
           <url>file://$PROJECT_DIR$/src/SetZeros.java</url>
           <line>35</line>
           <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TaskScheduler.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,9 +1,11 @@
+import java.util.AbstractMap.SimpleEntry;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
+import java.util.stream.Collectors;
 
 public class TaskScheduler {
 
@@ -11,7 +13,45 @@ public class TaskScheduler {
     char[] task = {'A', 'A', 'A', 'B', 'B', 'B'};
     String s = "AAAAAABCDEFG";
 
-    System.out.println(leastInterval3(s.toCharArray(), 2));
+     System.out.println(leastInterval(task, 3));
+
+
+  }
+
+  public static int leastInterval1(char[] tasks, int n) {
+    HashMap<Character, Integer> map = new HashMap<>();
+    for(char task : tasks){
+      map.putIfAbsent(task, 0);
+      map.put(task, map.get(task)+1);
+    }
+
+    List<Map.Entry<Character, Integer>> list = map.entrySet().stream().sorted(Map.Entry.comparingByValue()).collect(
+        Collectors.toList());
+
+    int count = 0;
+    int res = 0;
+    while(count < tasks.length){
+      int k = Math.max(list.size(), n);
+      int size = list.size();
+      List<Map.Entry<Character, Integer>> newList = new ArrayList<>();
+      for(int i=0;i<k;i++){
+
+        if(i<size){
+          Map.Entry<Character, Integer> entry = list.get(i);
+          if(entry.getKey() > 1){
+            entry.setValue(entry.getValue()-1);
+            newList.add(entry);
+          }
+          count++;
+        }
+
+        res++;
+        if(newList.isEmpty()) break;
+      }
+      list = newList;
+    }
+
+    return res;
   }
 
   public static int leastInterval(char[] tasks, int n) {

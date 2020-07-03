@@ -1,14 +1,9 @@
-import java.util.AbstractMap.SimpleEntry;
 import java.util.ArrayDeque;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Queue;
-import java.util.Set;
 
 public class MeetingRooms {
 
@@ -37,10 +32,10 @@ public class MeetingRooms {
    * Meeting Rooms I Given an array of meeting time intervals consisting of start and end times [s1,
    * e1], [s2, e2], ... , determine if a person could attend all meetings.
    */
-  static boolean canAttendMeetings(Interval[] intervals) {
-    Arrays.sort(intervals, (a, b) -> a.start - b.start);
-    for (int i = 1; i < intervals.length; i++) {
-      if (intervals[i].start < intervals[i - 1].end) {
+  static boolean canAttendMeetings(MyInterval[] myIntervals) {
+    Arrays.sort(myIntervals, (a, b) -> a.start - b.start);
+    for (int i = 1; i < myIntervals.length; i++) {
+      if (myIntervals[i].start < myIntervals[i - 1].end) {
         return false;
       }
     }
