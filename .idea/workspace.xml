@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2ce9718c-1ede-4ad5-93c3-ef70db2d37cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyInterval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MeetingRooms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeetingRooms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MergeSortedInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSortedInterval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TaskScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaskScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WallsAndGates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WallsAndGates.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExpressionAddOperators">
+  <component name="RunManager" selected="Application.NQueens">
     <configuration name="ExpressionAddOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExpressionAddOperators" />
       <module name="Leetcode4ever" />
@@ -55,15 +51,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthLargestElementInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KthLargestElementInArray" />
+    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NQueens" />
       <module name="Leetcode4ever" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
+    <configuration name="Pow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pow" />
       <module name="Leetcode4ever" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ValidNumber" />
+    <configuration name="TransformSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TransformSortedArray" />
       <module name="Leetcode4ever" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NQueens" />
+        <item itemvalue="Application.Pow" />
+        <item itemvalue="Application.TransformSortedArray" />
         <item itemvalue="Application.ExpressionAddOperators" />
         <item itemvalue="Application.Sort" />
-        <item itemvalue="Application.KthLargestElementInArray" />
-        <item itemvalue="Application.ValidNumber" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592708899863</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Commit 4">
+      <created>1593813255261</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593813255262</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +240,11 @@
           <url>file://$PROJECT_DIR$/src/TaskScheduler.java</url>
           <line>33</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Pow.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="64" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

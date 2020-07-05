@@ -3,6 +3,11 @@ import java.util.Queue;
 
 public class WallsAndGates {
 
+  public static void main(String[] args) {
+    int x = 1;
+    int y = -x * 3;
+  }
+
   /**
    * You are given a m x n 2D grid initialized with these three possible values.
    *
